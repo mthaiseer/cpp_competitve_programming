@@ -50,6 +50,7 @@ template <class T> void _print(set <T> v) {cerr << "[ "; for (T i : v) {_print(i
 template <class T> void _print(multiset <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
 template <class T, class V> void _print(map <T, V> v) {cerr << "[ "; for (auto i : v) {_print(i); cerr << " ";} cerr << "]";}
 
+//FFFFTTTTT
 int lower(vector<int>& arr, int l, int n){
 
     int start  = 0;
@@ -70,6 +71,7 @@ int lower(vector<int>& arr, int l, int n){
     return ans;
 }
 
+//TTTTFFFFF
 int upper(vector<int>& arr, int r, int n){
 
     int start  = 0;
